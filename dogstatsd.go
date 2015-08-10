@@ -2,8 +2,9 @@ package metrics
 
 import (
 	"fmt"
-	"github.com/Datadog/datadog-go/statsd"
 	"strings"
+
+	"github.com/DataDog/datadog-go/statsd"
 )
 
 // HostnameGetter is a generic function to retrieve a hostname
